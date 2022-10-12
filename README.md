@@ -17,9 +17,12 @@ if weather == "cold":
 elif weather == "sunny":
 	print("let's go to the beach")
 
-# if any other scenario bring a raincoat
+# if its raining bring a raincoat
+elif weather == "rainy":
+    print("wear a raincoat")
+
 else:
-	print("bring raincoat")
+    print("wear whatever you want")
 
 ```
 

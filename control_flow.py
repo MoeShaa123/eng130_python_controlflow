@@ -16,14 +16,25 @@ if weather == "cold":
 elif weather == "sunny":
 	print("let's go to the beach")
 
-# if any other scenario bring a raincoat
+# if its raining bring a raincoat
+elif weather == "rainy":
+    print("wear a raincoat")
+
 else:
-	print("bring raincoat")
+    print("wear whatever you want")
 
 
-age = 18
+print("enter your age")
+age = input()
 
 if age >= 18:
     print("You can buy a ticket")
 elif age >= 16:
     print("")
+elif age >=15:
+    print("")
+else:
+    print("enter your age again")
+
+
+
