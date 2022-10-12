@@ -28,6 +28,13 @@ else:
 ### Iterating through dictionary
 
 ```python
+student_1 = {
+    "name": "Mohamed",
+    "stream" : "DevOps",
+    "completed_lessons" : 4
+
+}
+
 for x in student_1:
     # print(x)
     # print(student_1[x])
