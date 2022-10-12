@@ -17,8 +17,7 @@ for number in list_data:
 student_1 = {
     "name": "Mohamed",
     "stream" : "DevOps",
-    "completed_lessons" : 4,
-    "completed_lessons_names": ["lists", "tuples", "OOP"]
+    "completed_lessons" : 4
 
 }
 
@@ -28,6 +27,27 @@ student_1 = {
 # print values and keys
 
 for x in student_1:
-    print(x)
+    # print(x)
+    # print(student_1[x])
+    if x == "name":
+        print(f"Your name is {student_1[x]}")
+    elif x == "stream":
+        print(f"You study {student_1[x]}")
+    elif x == "completed_lessons":
+        print(f"You completed {student_1[x]} lessons")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

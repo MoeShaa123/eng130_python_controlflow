@@ -25,16 +25,20 @@ else:
 
 
 print("enter your age")
-age = input()
+age = int(input())
 
-if age >= 18:
-    print("You can buy a ticket")
-elif age >= 16:
-    print("")
-elif age >=15:
-    print("")
+if age >= 117:
+    print("Please re-enter your age")
+elif age >= 18:
+    print("You can buy any ticket")
+elif  16 <= age < 18:
+    print("you can buy a general ticket")
+elif   12 <= age < 16:
+    print("you can't watch restricted content")
 else:
-    print("enter your age again")
+    print("you can only watch PG movies")
+
+
 
 
 
